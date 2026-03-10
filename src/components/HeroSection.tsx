@@ -4,7 +4,10 @@ import logo from "@/assets/logo.png";
 
 const HeroSection = () => {
   return (
-    <section id="inicio" className="relative min-h-screen flex items-center justify-center overflow-hidden">
+    <section
+      id="inicio"
+      className="relative min-h-screen flex items-center justify-center overflow-hidden"
+    >
       <img
         src={heroBg}
         alt="Cilindros de gases industriais"
@@ -12,47 +15,32 @@ const HeroSection = () => {
       />
       <div className="absolute inset-0 bg-hero-overlay" />
 
-      {/* Decorative elements */}
       <div className="absolute top-20 right-10 w-72 h-72 rounded-full border border-accent/20 opacity-30" />
       <div className="absolute bottom-20 left-10 w-48 h-48 rounded-full border border-secondary/20 opacity-20" />
 
       <div className="relative z-10 container mx-auto px-4 text-center">
+        <img
+          src={logo}
+          alt="Logo"
+          className="mx-auto mb-8 w-40"
+        />
 
-<img
-src={logo}
-alt="Logo"
-className="mx-auto mb-8 w-40"
-/>
-
-<p className="font-display text-sm md:text-base tracking-[0.3em] uppercase text-accent">
-Gases Industriais & Medicinais
-</p>
-
-<h1 className="font-display text-4xl sm:text-5xl md:text-7xl font-bold text-primary">
-Qualidade e <br />
-<span className="text-gradient">Confiança</span>
-<br />desde 2010
-</h1>
-
-<p className="max-w-xl mx-auto text-primary-foreground/70 text-lg mb-10 font-light">
-Fornecemos oxigênio, argônio, nitrogênio, CO₂ e gases de solda para indústria,
-comércio e saúde em Londrina e região.
-</p>
-
-</div>
-
-<h1 className="font-display text-4xl sm:text-5xl md:text-7xl font-bold text-primary">
-Qualidade e <br />
-<span className="text-gradient">Confiança</span>
-<br />desde 2010
-</h1>
-
-</div>
-        </h1>
-        <p className="max-w-xl mx-auto text-primary-foreground/70 text-lg mb-10 font-light">
-          Fornecemos oxigênio, argônio, nitrogênio, CO₂ e gases de solda para indústria,
-          comércio e saúde em Londrina e região.
+        <p className="font-display text-sm md:text-base tracking-[0.3em] uppercase text-accent">
+          Gases Industriais & Medicinais
         </p>
+
+        <h1 className="font-display text-4xl sm:text-5xl md:text-7xl font-bold text-primary">
+          Qualidade e <br />
+          <span className="text-gradient">Confiança</span>
+          <br />
+          desde 2010
+        </h1>
+
+        <p className="max-w-xl mx-auto text-primary-foreground/70 text-lg mb-10 font-light">
+          Fornecemos oxigênio, argônio, nitrogênio, CO₂ e gases de solda para
+          indústria, comércio e saúde em Londrina e região.
+        </p>
+
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <a
             href="https://wa.me/5543999251330?text=Olá! Gostaria de fazer um orçamento."
@@ -62,6 +50,7 @@ Qualidade e <br />
           >
             Solicitar Orçamento
           </a>
+
           <a
             href="#produtos"
             className="border border-primary-foreground/30 text-primary-foreground px-8 py-4 rounded-lg font-display text-sm uppercase tracking-wider hover:bg-primary-foreground/10 transition"
