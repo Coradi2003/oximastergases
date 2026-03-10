@@ -22,7 +22,7 @@ const HeroSection = () => {
         <img
           src={logo}
           alt="Logo"
-          className="mx-auto mb-8 w-72"
+          className="mx-auto mb-8 w-96"
         />
 
         <p className="font-display text-sm md:text-base tracking-[0.3em] uppercase text-accent">
