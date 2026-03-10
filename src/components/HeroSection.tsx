@@ -1,5 +1,6 @@
 import heroBg from "@/assets/hero-bg.jpg";
 import { ArrowDown } from "lucide-react";
+import logo from "@/assets/logo.png";
 
 const HeroSection = () => {
   return (
@@ -16,13 +17,37 @@ const HeroSection = () => {
       <div className="absolute bottom-20 left-10 w-48 h-48 rounded-full border border-secondary/20 opacity-20" />
 
       <div className="relative z-10 container mx-auto px-4 text-center">
-        <p className="font-display text-sm md:text-base tracking-[0.3em] uppercase text-accent mb-4 animate-fade-in">
-          Gases Industriais & Medicinais
-        </p>
-        <h1 className="font-display text-4xl sm:text-5xl md:text-7xl font-bold text-primary-foreground leading-tight mb-6">
-          Qualidade e<br />
-          <span className="text-gradient">Confiança</span>
-          <br />desde 2010
+
+<img
+src={logo}
+alt="Logo"
+className="mx-auto mb-8 w-40"
+/>
+
+<p className="font-display text-sm md:text-base tracking-[0.3em] uppercase text-accent">
+Gases Industriais & Medicinais
+</p>
+
+<h1 className="font-display text-4xl sm:text-5xl md:text-7xl font-bold text-primary">
+Qualidade e <br />
+<span className="text-gradient">Confiança</span>
+<br />desde 2010
+</h1>
+
+<p className="max-w-xl mx-auto text-primary-foreground/70 text-lg mb-10 font-light">
+Fornecemos oxigênio, argônio, nitrogênio, CO₂ e gases de solda para indústria,
+comércio e saúde em Londrina e região.
+</p>
+
+</div>
+
+<h1 className="font-display text-4xl sm:text-5xl md:text-7xl font-bold text-primary">
+Qualidade e <br />
+<span className="text-gradient">Confiança</span>
+<br />desde 2010
+</h1>
+
+</div>
         </h1>
         <p className="max-w-xl mx-auto text-primary-foreground/70 text-lg mb-10 font-light">
           Fornecemos oxigênio, argônio, nitrogênio, CO₂ e gases de solda para indústria,
