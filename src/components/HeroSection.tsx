@@ -29,11 +29,12 @@ const HeroSection = () => {
           Gases Industriais & Medicinais
         </p>
 
-        <h1 className="font-display text-4xl sm:text-5xl md:text-7xl font-bold text-primary">
-          Qualidade e <br />
+        <h1 className="font-display text-4xl sm:text-5xl md:text-7xl font-bold leading-[0.95]">
+          <span className="text-white">Qualidade e</span>
+          <br />
           <span className="text-gradient">Confiança</span>
           <br />
-          desde 2010
+          <span className="text-white">desde 2010</span>
         </h1>
 
         <p className="max-w-xl mx-auto text-primary-foreground/70 text-lg mb-10 font-light">
