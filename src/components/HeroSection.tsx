@@ -1,4 +1,4 @@
-import heroBg from "@/assets/hero-bg.jpg";
+import heroBg from "@/assets/hero-bg.jpg"; 
 import { ArrowDown } from "lucide-react";
 import logo from "@/assets/logo.png";
 
@@ -22,7 +22,7 @@ const HeroSection = () => {
         <img
           src={logo}
           alt="Logo"
-          className="mx-auto mb-8 w-40"
+          className="mx-auto mb-8 w-72"
         />
 
         <p className="font-display text-sm md:text-base tracking-[0.3em] uppercase text-accent">
