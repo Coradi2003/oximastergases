@@ -16,17 +16,15 @@ const VideoSection = () => {
         </div>
 
         <div className="grid md:grid-cols-2 gap-8 items-center">
-          {/* Video */}
           <div className="relative rounded-xl overflow-hidden shadow-2xl aspect-[9/16] max-h-[600px] mx-auto w-full max-w-sm">
-            <video
-              src="/videos/estoque.mp4"
-              controls
-              playsInline
-              preload="metadata"
-              poster={warehouse.toString()}
-              className="w-full h-full object-cover"
-            />
-            <div className="absolute top-4 left-4 bg-accent/90 text-accent-foreground px-3 py-1 rounded-full font-display text-xs uppercase tracking-wider">
+            <iframe
+              src="https://www.youtube.com/embed/n1wfqLkpF8I?rel=0&modestbranding=1&playsinline=1"
+              title="Vídeo do Estoque"
+              className="w-full h-full border-0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
+            <div className="absolute top-4 left-4 bg-accent/90 text-accent-foreground px-3 py-1 rounded-full font-display text-xs uppercase tracking-wider pointer-events-none">
               Vídeo do Estoque
             </div>
           </div>
